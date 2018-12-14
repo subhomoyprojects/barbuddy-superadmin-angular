@@ -1,1 +1,109 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Ubuntu:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+/*
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+
+*/
+/*-=-=-=-==-==-=-=-=-=-=-=-=-==-==-==-= Common Library -=-=-------------=-=-*/
+*,p{margin:0;}*{outline:0;padding:0}.html{font-size:14px;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{font-family: 'Ubuntu', sans-serif;font-size:12px}h1,h2,h3,h4,h5,h6{font-family: 'Lato', sans-serif;}a,button{text-decoration:none;color:#555;display:inline-block}.block_element,address,article,aside,footer,header,nav,section{display:block}a:focus,a:hover{color:#23527c;text-decoration:none}img{border:0;vertical-align:middle;max-width:100%}dl,ol,ul{list-style:none}.padding_bottom_60{padding-bottom:60px}.padding_bottom_70{padding-bottom:70px}button{background:transparent;border:none;}ul{margin-bottom:0}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #686868;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #686868;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #686868;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #686868;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #686868;
+}
+::placeholder { /* Most modern browsers support this now. */
+    color: #686868;
+    opacity:  1;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] {
+    -moz-appearance: textfield;
+ }
+ .alert-success,.alert-danger{
+    color: #ffffff;
+    font-size: 14px;
+    border-color: transparent;
+    box-shadow: 0 5px 38px rgba(0,0,0,0.2);
+    letter-spacing: 0.5px;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    border: 2px solid transparent;
+ }
+ .alert-danger {
+    background-color: #ca4350;
+    border-color:#f1a1a9;
+ }
+ .alert-success {
+    background-color: #4ee26a;
+    border-color:#d0ffd9;
+ }
+ .disabled,a.disabled,button.disabled,input[type="submit"].disabled{
+    cursor: not-allowed;
+ }
+ .modal-backdrop.show {
+    opacity: .6;
+}
+.modal-body{
+    padding: 0.5rem;
+}
+.modal-dialog,.modal.show .modal-dialog {
+    max-width: 700px;
+    /* margin: 3rem auto 1.75rem; */
+    margin: 0;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+select{
+    cursor: pointer;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.tringle_arrow{
+    position: relative;
+}
+.tringle_arrow::after {
+    position: absolute;
+    content: "\f107";
+    font-family: 'FontAwesome';
+    color: #000;
+    font-size: 19px;
+    top: 8px;
+    right: 8px;
+    pointer-events: none;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.img_and_video_slider_controller{
+    max-width: 535px;
+    margin: 0 auto;
+}
