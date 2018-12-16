@@ -1,3 +1,14 @@
-<p>
-  header works!
-</p>
+<nav class="navbar navbar-expand navbar-light static-top nav-custom"> 
+  <a class="navbar-brand mr-1" routerLink="/superadmin/index"> <img src="../assets/images/logo.png" alt="Logo"> </a>
+  <button class="btn btn-link btn-sm text-muted order-1 order-sm-0" id="sidebarToggle" href="#"> <i class="fa fa-bars"></i> </button>
+  
+  <!-- Navbar -->
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item dropdown"> 
+      <a class="nav-link" href="#"> <i class="fa fa-user-circle fa-fw"></i> John D. </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown"> 
+        <a class="dropdown-item" href="#">Logout</a> 
+      </div>
+    </li>
+  </ul>
+</nav>
