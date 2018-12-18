@@ -26,7 +26,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/sb-admin.min.js"
+              "src/sb-admin.js"
             ]
           },
           "configurations": {
@@ -84,7 +84,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/sb-admin.min.js"
+              "src/sb-admin.js"
             ],
             "assets": [
               "src/favicon.ico",
