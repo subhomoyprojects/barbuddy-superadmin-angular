@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+// Ngb Bootstrap
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,7 +22,8 @@ import { SidenavbarComponent } from './superadmin/sidenavbar/sidenavbar.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule // Ngb Module
   ],
   providers: [],
   bootstrap: [AppComponent]
