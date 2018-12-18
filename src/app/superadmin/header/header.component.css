@@ -1,3 +1,19 @@
 .nav-custom{
     background-color: #e0e0e0;
 }
+.navbar-brand {
+    background: #8d2ce2;
+    background: -moz-linear-gradient(-45deg, #8d2ce2 0%, #5407e0 100%);
+    background: -webkit-linear-gradient(-45deg, #8d2ce2 0%,#5407e0 100%);
+    background: linear-gradient(135deg, #8d2ce2 0%,#5407e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d2ce2', endColorstr='#5407e0',GradientType=1 );
+    padding: 15px;
+}
+.nav-custom {
+    padding: 0;
+}
+.navbar-nav .dropdown-menu {
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 0 50px #ccc;
+}
