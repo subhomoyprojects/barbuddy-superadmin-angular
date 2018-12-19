@@ -25,9 +25,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "src/sb-admin.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -83,9 +81,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "src/sb-admin.js"
-            ],
+            "scripts": [],
             "assets": [
               "src/favicon.ico",
               "src/assets"
