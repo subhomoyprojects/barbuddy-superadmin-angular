@@ -2,6 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 // Ngb Bootstrap
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+// Mat Input Module install
+import {MatInputModule} from '@angular/material/input';
 
 import { AppRoutingModule } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,7 +26,9 @@ import { SidenavbarComponent } from './superadmin/sidenavbar/sidenavbar.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule // Ngb Module
+    NgbModule, // Ngb Module
+    BrowserAnimationsModule, // Browser Animation Module
+    MatInputModule // Metarial input module
   ],
   providers: [],
   bootstrap: [AppComponent]

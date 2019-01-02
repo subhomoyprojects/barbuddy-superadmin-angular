@@ -7,10 +7,6 @@
 .search-icon-holder{
     position: relative;
 }
-.input-focus {
-    border-bottom: 2px solid #dde3e8;
-    position: relative;
-}
 .input-focus input{
     width:100%;
     background-color: transparent;
@@ -18,21 +14,6 @@
     padding-left: 0;
     border: none;
     font-size: 14px;
-}
-.input-focus::before{
-    position: absolute;
-    width: 0;
-    position: absolute;
-    content: "";
-    background-color: #590ae0;
-    height: 2px;
-    left: 0;
-    bottom: -1px;
-    pointer-events: none;
-    transition: all ease-in-out 0.5s;
-}
-.input-focus:focus-within::before {
-    width: 100%;
 }
 .search-icon-holder::after{
     content: "\f002";
@@ -43,7 +24,7 @@
     pointer-events: none;
     font-family: 'FontAwesome';
     color: #90a6b0;
-    top: 0;
+    bottom: 26px;
 }
 .search-icon-holder input{
     padding-right: 25px;
