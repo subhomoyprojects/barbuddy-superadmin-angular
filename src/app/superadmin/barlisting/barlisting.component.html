@@ -20,7 +20,16 @@
                             <input matInput placeholder="Search By Locality">
                         </mat-form-field>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4"></div>
+                    <div class="col-12 col-sm-6 col-md-4 text-right">
+                        <div ngbDropdown class="d-inline-block" placement="bottom-right">
+                            <button class="filter-btn" id="filter" ngbDropdownToggle><i class="fa fa-sliders"></i></button>
+                            <div ngbDropdownMenu aria-labelledby="filter">
+                                <button class="dropdown-item">Action - 1</button>
+                                <button class="dropdown-item">Another Action</button>
+                                <button class="dropdown-item">Something else is here</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

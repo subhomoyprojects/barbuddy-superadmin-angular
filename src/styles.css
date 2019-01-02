@@ -132,6 +132,11 @@ button,a{
 .mat-form-field-appearance-legacy .mat-form-field-underline {
   background-color: #dde3e8 !important;
 }
+.dropdown-menu {
+  border-radius: 0;
+  border: 0;
+  box-shadow: 0 0 50px #ccc;
+}
 /* Admin Panel */
 html {
     position: relative;

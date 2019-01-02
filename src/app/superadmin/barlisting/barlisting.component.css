@@ -29,3 +29,10 @@
 .search-icon-holder input{
     padding-right: 25px;
 }
+.filter-btn{
+    color: #590ae0;
+    font-size: 34px;
+}
+.filter-btn::after{
+    display: none;
+}
