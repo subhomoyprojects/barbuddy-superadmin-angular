@@ -5,6 +5,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 // Mat Input Module install
 import {MatInputModule} from '@angular/material/input';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 import { AppRoutingModule } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,7 +30,9 @@ import { SidenavbarComponent } from './superadmin/sidenavbar/sidenavbar.componen
     AppRoutingModule,
     NgbModule, // Ngb Module
     BrowserAnimationsModule, // Browser Animation Module
-    MatInputModule // Metarial input module
+    MatInputModule, // Metarial input module
+    MatExpansionModule, // Metarial Accordine
+    MatCheckboxModule  // Metarial Checkbox
   ],
   providers: [],
   bootstrap: [AppComponent]

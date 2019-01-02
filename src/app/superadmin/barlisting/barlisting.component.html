@@ -21,13 +21,25 @@
                         </mat-form-field>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 text-right">
-                        <div ngbDropdown class="d-inline-block" placement="bottom-right">
-                            <button class="filter-btn" id="filter" ngbDropdownToggle><i class="fa fa-sliders"></i></button>
-                            <div ngbDropdownMenu aria-labelledby="filter">
-                                <button class="dropdown-item">Action - 1</button>
-                                <button class="dropdown-item">Another Action</button>
-                                <button class="dropdown-item">Something else is here</button>
-                            </div>
+                        <div ngbDropdown class="d-inline-block">
+                            <button class="filter-btn" id="dropdownConfig" ngbDropdownToggle><i class="fa fa-sliders"></i></button>
+                            <ul ngbDropdownMenu aria-labelledby="dropdownConfig">
+                                <li class="dropdown-item">
+                                    <mat-accordion>
+                                        <mat-expansion-panel>
+                                            <mat-expansion-panel-header>
+                                                Filter By Plan
+                                            </mat-expansion-panel-header>
+                                            <ul>
+                                                <li><mat-checkbox>Free</mat-checkbox></li>
+                                                <li><mat-checkbox>Premium</mat-checkbox></li>
+                                            </ul>
+                                        </mat-expansion-panel>
+                                    </mat-accordion>
+                                </li>
+                                <li class="dropdown-item">Action - 1</li>
+                                <li class="dropdown-item">Action - 1</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

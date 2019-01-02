@@ -137,6 +137,10 @@ button,a{
   border: 0;
   box-shadow: 0 0 50px #ccc;
 }
+.dropdown-item.active, .dropdown-item:active {
+  background-color: transparent;
+  color: inherit;
+}
 /* Admin Panel */
 html {
     position: relative;
