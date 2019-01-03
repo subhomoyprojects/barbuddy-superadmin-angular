@@ -141,6 +141,42 @@ button,a{
   background-color: transparent;
   color: inherit;
 }
+.mat-expansion-panel-header{
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 !important;
+  height: 35px !important;
+  padding-right: 10px !important;
+  color: #818181;
+  font-weight: 600;
+  font-size: 14px;
+}
+.mat-expansion-panel:not([class*="mat-elevation-z"]){
+  box-shadow: none !important;
+}
+.mat-checkbox-checked.mat-accent .mat-checkbox-background, .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+  background-color: #8829e2;
+}
+.mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-header:not([aria-disabled="true"]).cdk-keyboard-focused, 
+.mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-header:not([aria-disabled="true"]).cdk-program-focused, 
+.mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-header:not([aria-disabled="true"]):hover{
+  background-color: transparent;
+}
+.mat-expansion-panel{
+  background: transparent;
+}
+.mat-expansion-panel-body{
+  padding: 0 !important;
+}
+.mat-content{
+  margin-right: 20px;
+}
+.mat-expansion-panel{
+  padding: 0 15px;
+}
+.filter-dropdown-holder  .mat-checkbox-layout .mat-checkbox-label{
+  margin-left: 10px;
+  font-weight: 600;
+}
 /* Admin Panel */
 html {
     position: relative;

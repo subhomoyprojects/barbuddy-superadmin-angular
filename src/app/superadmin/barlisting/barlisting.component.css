@@ -36,3 +36,11 @@
 .filter-btn::after{
     display: none;
 }
+.filter-dropdown-holder .dropdown-item{
+    padding-left: 0;
+    padding-right:0;
+}
+.filter-dropdown-holder .dropdown-item:focus, 
+.filter-dropdown-holder .dropdown-item:hover{
+    background-color: transparent;
+}
