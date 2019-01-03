@@ -4,11 +4,14 @@
     <div id="content-wrapper">
         <section class="barlisting-wrapper">
             <div class="container-fluid">
+                <!-- Title Start -->
                 <div class="row">
                     <div class="col-12 heading-tag">
                         <h1 class="mb-3">Bar Listing</h1>
                     </div>
                 </div>
+                <!-- Title End -->
+                <!-- Filter Start -->
                 <div class="row">
                     <div class="col-12 col-sm-6 col-md-4">
                         <mat-form-field class="search-icon-holder input-focus full-width">
@@ -92,6 +95,33 @@
                         </div>
                     </div>
                 </div>
+                <!-- Filter End -->
+                <!-- Listing Items Start -->
+                <div class="row">
+                    <div class="col-12 barlisting-holder">
+                        <mat-accordion>
+                            <mat-expansion-panel>
+                                <mat-expansion-panel-header>
+                                <mat-panel-title>
+                                    <ul>
+                                        <li class="barlisting-img-holder"><img src="/assets/images/bar.jpg" alt="Bar"></li>
+                                        <li>Overtime Sports Bar and Grill</li>
+                                    </ul>
+                                </mat-panel-title>
+                                <mat-panel-description>
+                                    <ul>
+                                        <li>Renewal : Done</li>
+                                        <li><button type="button" class="edit-button"><i class="fa fa-pencil"></i></button></li>
+                                        <li><button type="button" class="delate-button"><i class="fa fa-trash-o"></i></button></li>
+                                    </ul>
+                                </mat-panel-description>
+                                </mat-expansion-panel-header>
+                                <p>Hello World</p>
+                            </mat-expansion-panel>
+                        </mat-accordion>
+                    </div>
+                </div>
+                <!-- Listing Items End -->
             </div>
         </section>
     </div>

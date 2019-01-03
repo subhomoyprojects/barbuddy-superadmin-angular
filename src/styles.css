@@ -177,6 +177,10 @@ button,a{
   margin-left: 10px;
   font-weight: 600;
 }
+.barlisting-holder .mat-content{
+  height: 100%;
+  padding: 10px 0;
+}
 /* Admin Panel */
 html {
     position: relative;

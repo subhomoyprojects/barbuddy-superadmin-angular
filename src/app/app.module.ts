@@ -7,6 +7,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatInputModule} from '@angular/material/input';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatIconModule} from '@angular/material/icon';
 
 import { AppRoutingModule } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
@@ -32,7 +33,8 @@ import { SidenavbarComponent } from './superadmin/sidenavbar/sidenavbar.componen
     BrowserAnimationsModule, // Browser Animation Module
     MatInputModule, // Metarial input module
     MatExpansionModule, // Metarial Accordine
-    MatCheckboxModule  // Metarial Checkbox
+    MatCheckboxModule, // Metarial Checkbox
+    MatIconModule  // Metarial Icon
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -44,3 +44,64 @@
 .filter-dropdown-holder .dropdown-item:hover{
     background-color: transparent;
 }
+.barlisting-holder .mat-accordion{
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.barlisting-holder .mat-expansion-panel-header{
+    height: 70px !important;
+}
+.barlisting-holder .mat-expansion-panel:not([class*="mat-elevation-z"]) {
+    box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12) !important;
+    background-color: #fff;
+}
+.barlisting-holder .mat-expansion-panel-header-title ul,
+.barlisting-holder .mat-expansion-panel-header-title ul li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: #738f9d;
+    font-size: 15px;
+}
+.barlisting-holder .barlisting-img-holder{
+    max-width: 50px;
+    margin-right: 15px;
+}
+.barlisting-holder .mat-expansion-panel-header-title ul li img{
+    max-height: 100%;
+}
+.barlisting-holder .mat-expansion-panel-header-description{
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+.barlisting-holder .mat-expansion-panel-header-description ul{
+    position: absolute;
+    right: 0;
+}
+.barlisting-holder .mat-expansion-panel-header-description ul,
+.barlisting-holder .mat-expansion-panel-header-description ul li{
+    display: flex;
+    align-items: center;
+}
+.barlisting-holder .mat-expansion-panel-header-description ul li:not(:last-child){
+    margin-right: 10px;
+}
+.edit-button,.delate-button{
+    width:40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 40px;
+    color: #8728e2;
+    border:1px solid #dde3e8;
+}
+.edit-button:hover,.delate-button:hover{
+    color:#fff;
+    background: linear-gradient(90deg,#8728e2,#5c0ce0);
+    border-color: transparent;
+}
