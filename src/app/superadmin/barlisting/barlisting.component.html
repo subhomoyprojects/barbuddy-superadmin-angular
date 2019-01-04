@@ -100,7 +100,7 @@
                 <div class="row">
                     <div class="col-12 barlisting-holder">
                         <mat-accordion>
-                            <mat-expansion-panel>
+                            <mat-expansion-panel #myPanel [disabled]="true">
                                 <mat-expansion-panel-header>
                                 <mat-panel-title>
                                     <ul>
@@ -114,6 +114,11 @@
                                         <li><button type="button" class="edit-button"><i class="fa fa-pencil"></i></button></li>
                                         <li><button type="button" class="delate-button"><i class="fa fa-trash-o"></i></button></li>
                                     </ul>
+                                    <div class="actions">
+                                        <button mat-icon-button color="primary" (click)="expandPannel()">
+                                            <mat-icon>{{matIcon}}</mat-icon>
+                                        </button>
+                                    </div>
                                 </mat-panel-description>
                                 </mat-expansion-panel-header>
                                 <p>Hello World</p>

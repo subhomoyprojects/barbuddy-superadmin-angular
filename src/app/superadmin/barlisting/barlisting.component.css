@@ -105,3 +105,11 @@
     background: linear-gradient(90deg,#8728e2,#5c0ce0);
     border-color: transparent;
 }
+.actions {
+    margin-right: -26px;
+    margin-top: 0px;
+}
+.mat-expansion-indicator::after {
+    visibility: hidden !important;
+    display: none !important;
+}

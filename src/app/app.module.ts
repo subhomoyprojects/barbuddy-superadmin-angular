@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule, ReactiveFormsModule}   from '@angular/forms';
 // Ngb Bootstrap
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -29,6 +30,8 @@ import { SidenavbarComponent } from './superadmin/sidenavbar/sidenavbar.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule, // Form Module
+    ReactiveFormsModule, // Form Module
     NgbModule, // Ngb Module
     BrowserAnimationsModule, // Browser Animation Module
     MatInputModule, // Metarial input module
