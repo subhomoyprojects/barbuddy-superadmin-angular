@@ -113,3 +113,11 @@
     visibility: hidden !important;
     display: none !important;
 }
+.listing-details{
+    background-color: #fff;
+    padding: 20px;
+}
+.bar-listing-details-wrapper{
+    display: flex;
+    width:100%;
+}
