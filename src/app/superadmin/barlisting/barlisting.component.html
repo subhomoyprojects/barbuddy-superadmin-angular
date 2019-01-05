@@ -100,7 +100,7 @@
                 <div class="row">
                     <div class="col-12 barlisting-holder">
                         <mat-accordion>
-                            <mat-expansion-panel #myPanel [disabled]="true">
+                            <mat-expansion-panel class="mb-3" #myPanel [disabled]="true">
                                 <mat-expansion-panel-header>
                                 <mat-panel-title>
                                     <ul>
@@ -122,26 +122,79 @@
                                 </mat-panel-description>
                                 </mat-expansion-panel-header>
                                 <!-- Main Listing Contant Holder Start -->
-                                <div class="listing-details">
+                                <div class="listing-details heading-tag">
                                     <div class="bar-listing-details-wrapper">
                                         <div>
                                             <h5>Total User check-in</h5>
-                                            <p>123</p>
+                                            <p class="">123</p>
                                         </div>
                                         <div>
                                             <h5>Popular Bar?</h5>
-                                            <div></div>
+                                            <mat-radio-group>
+                                                <mat-radio-button value="yes">Yes</mat-radio-button>
+                                                <mat-radio-button value="no">No</mat-radio-button>
+                                            </mat-radio-group>                                              
                                         </div>
                                         <div>
                                             <h5>Approve</h5>
-                                            <div></div>
+                                            <mat-slide-toggle></mat-slide-toggle>
                                         </div>
-                                        <div>
+                                        <div class="date-of-renewal">
                                             <h5>Date of Renewal :</h5>
-                                            <div>04-01-2019</div>
+                                            <p>04-01-2019</p>
+                                        </div>
+                                        <div class="view-rating">
+                                            <a href="#">View Rating and Reviews</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Main Listing Contant Holder Start -->
+                            </mat-expansion-panel>
+                            <mat-expansion-panel class="mb-3" #myPanel1 [disabled]="true">
+                                <mat-expansion-panel-header>
+                                <mat-panel-title>
+                                    <ul>
+                                        <li class="barlisting-img-holder"><img src="/assets/images/bar.jpg" alt="Bar"></li>
+                                        <li>Overtime Sports Bar and Grill</li>
+                                    </ul>
+                                </mat-panel-title>
+                                <mat-panel-description>
+                                    <ul>
+                                        <li>Renewal : Done</li>
+                                        <li><button type="button" class="edit-button"><i class="fa fa-pencil"></i></button></li>
+                                        <li><button type="button" class="delate-button"><i class="fa fa-trash-o"></i></button></li>
+                                    </ul>
+                                    <div class="actions">
+                                        <button mat-icon-button color="primary" (click)="expandPannel1()">
+                                            <mat-icon>{{matIcon1}}</mat-icon>
+                                        </button>
+                                    </div>
+                                </mat-panel-description>
+                                </mat-expansion-panel-header>
+                                <!-- Main Listing Contant Holder Start -->
+                                <div class="listing-details heading-tag">
+                                    <div class="bar-listing-details-wrapper">
+                                        <div>
+                                            <h5>Total User check-in</h5>
+                                            <p class="">123</p>
                                         </div>
                                         <div>
-                                            <a href="#">View Rating and Reviews</a>>
+                                            <h5>Popular Bar?</h5>
+                                            <mat-radio-group>
+                                                <mat-radio-button value="yes">Yes</mat-radio-button>
+                                                <mat-radio-button value="no">No</mat-radio-button>
+                                            </mat-radio-group>                                              
+                                        </div>
+                                        <div>
+                                            <h5>Approve</h5>
+                                            <mat-slide-toggle></mat-slide-toggle>
+                                        </div>
+                                        <div class="date-of-renewal">
+                                            <h5>Date of Renewal :</h5>
+                                            <p>04-01-2019</p>
+                                        </div>
+                                        <div class="view-rating">
+                                            <a href="#">View Rating and Reviews</a>
                                         </div>
                                     </div>
                                 </div>

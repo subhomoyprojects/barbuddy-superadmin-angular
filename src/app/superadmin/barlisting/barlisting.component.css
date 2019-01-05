@@ -117,7 +117,24 @@
     background-color: #fff;
     padding: 20px;
 }
+.barlisting-holder li{
+    color: rgba(0,0,0,.54);
+}
 .bar-listing-details-wrapper{
     display: flex;
     width:100%;
+}
+.heading-tag h5{
+    color: #738f9d;
+    font-size: 14px;
+    display: block;
+    font-weight: 600;
+}
+.bar-listing-details-wrapper > div{
+    flex: 1;
+}
+.bar-listing-details-wrapper > div:first-child p{
+    font-size: 16px;
+    color: #590ae0;
+    font-weight: 600;
 }

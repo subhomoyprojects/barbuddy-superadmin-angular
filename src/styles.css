@@ -187,7 +187,53 @@ button,a{
 .barlisting-holder .mat-content {
   margin-right: 0;
 }
-/* Admin Panel */
+.mat-radio-outer-circle {
+  height: 18px !important;
+  width: 18px !important;
+}
+.mat-radio-button.mat-accent .mat-radio-inner-circle, .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+  background-color: #8829e2;
+}
+.mat-radio-checked .mat-radio-inner-circle {
+  transform: scale(.40) !important;
+}
+.mat-radio-inner-circle {
+  left: -1px !important;
+  top: -1px !important;
+}
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #8829e2;
+}
+.mat-radio-button{
+  margin-right: 10px;
+}
+.mat-radio-label-content{
+  color: #738f9d;
+  font-size: 14px;
+  display: block;
+  font-weight: 600;
+}
+.mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+  background-color: rgba(135,40,226,.54);
+}
+.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+  background-color: #8829e2;
+}
+.date-of-renewal p{
+  font-weight: 600;
+}
+.view-rating a{
+  color: #8829e2;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.listing-details{
+  border-top: 1px solid #dcf6ff;
+}
+
+
+
+/* ===================== Admin Panel ====================== */
 html {
     position: relative;
   }

@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule, ReactiveFormsModule}   from '@angular/forms';
+import 'hammerjs';
 // Ngb Bootstrap
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -9,6 +10,8 @@ import {MatInputModule} from '@angular/material/input';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatIconModule} from '@angular/material/icon';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 
 import { AppRoutingModule } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
@@ -37,7 +40,9 @@ import { SidenavbarComponent } from './superadmin/sidenavbar/sidenavbar.componen
     MatInputModule, // Metarial input module
     MatExpansionModule, // Metarial Accordine
     MatCheckboxModule, // Metarial Checkbox
-    MatIconModule  // Metarial Icon
+    MatIconModule,  // Metarial Icon
+    MatRadioModule, // Metarial Radio Button
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
