@@ -313,8 +313,8 @@ html {
   @media (min-width:320px) and (max-width:767px)
   {
     #wrapper #content-wrapper {
-      padding-right: 5px;
-      padding-left: 5px;
+      padding-right: 0;
+      padding-left: 0;
     }
     .mat-content {
       flex-direction: column !important;
