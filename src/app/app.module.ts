@@ -20,6 +20,7 @@ import { HeaderComponent } from './superadmin/header/header.component';
 import { FooterComponent } from './superadmin/footer/footer.component';
 import { IndexComponent } from './superadmin/index/index.component';
 import { SidenavbarComponent } from './superadmin/sidenavbar/sidenavbar.component';
+import { BardetailsComponent } from './superadmin/bardetails/bardetails.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SidenavbarComponent } from './superadmin/sidenavbar/sidenavbar.componen
     HeaderComponent,
     FooterComponent,
     IndexComponent,
-    SidenavbarComponent
+    SidenavbarComponent,
+    BardetailsComponent
   ],
   imports: [
     BrowserModule,
