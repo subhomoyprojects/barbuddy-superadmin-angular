@@ -138,3 +138,17 @@
     color: #590ae0;
     font-weight: 600;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+    .barlisting-holder .mat-expansion-panel-header {
+        height: auto !important;
+    }
+    .bar-listing-details-wrapper{
+        flex-wrap: wrap;
+    }
+    .bar-listing-details-wrapper > div{
+        flex: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

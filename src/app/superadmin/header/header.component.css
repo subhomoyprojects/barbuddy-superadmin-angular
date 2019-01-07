@@ -17,3 +17,26 @@
     min-width: 225px;
     max-width: 225px;
 }
+@media (min-width:320px) and (max-width:767px){
+    .sidebar, .navbar-brand {
+        width: 90px !important;
+        min-width: 90px;
+        max-width: 90px;
+        padding: 8px;
+    }
+    .navbar-brand {
+        background: none;
+    }
+    .navbar-nav{
+        margin-right: 0 !important;
+    }
+    .nav-custom{
+        background:#8d2ce2 linear-gradient(135deg, #8d2ce2 0%,#5407e0 100%);
+    }
+    .navbar .dropdown-toggle{
+        color: #fff;
+    }
+    .open-close-sidenav{
+        color: #fff !important;
+    }
+}
