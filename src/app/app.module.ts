@@ -5,13 +5,14 @@ import 'hammerjs';
 // Ngb Bootstrap
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-// Mat Input Module install
+// Mat  Module install
 import {MatInputModule} from '@angular/material/input';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatIconModule} from '@angular/material/icon';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatTabsModule} from '@angular/material/tabs';
 
 import { AppRoutingModule } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
@@ -54,7 +55,8 @@ import { OffersComponent } from './superadmin/offers/offers.component';
     MatCheckboxModule, // Metarial Checkbox
     MatIconModule,  // Metarial Icon
     MatRadioModule, // Metarial Radio Button
-    MatSlideToggleModule
+    MatSlideToggleModule, // Metarial Accordine
+    MatTabsModule // Mat tabs
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -230,7 +230,41 @@ button,a{
 .listing-details{
   border-top: 1px solid #dcf6ff;
 }
-
+.mat-tab-group {
+  margin-bottom: 34px;
+}
+.mat-tab-label {
+  height: 30px !important;
+  padding: 0 7px !important;
+  min-width: 90px !important;
+}
+.mat-ink-bar{
+  width:90px !important;
+}
+.mat-tab-label, .mat-tab-link{
+  font-family: 'Open Sans', sans-serif;
+}
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+  background-color: #6210e1;
+}
+.mat-tab-label-content{
+  font-weight: 600;
+}
+.mat-tab-label-active .mat-tab-label-content{
+  color: #6210e1;
+  font-weight: bold;
+}
+.bar-related-details-link-holder .mat-tab-label-active{
+  opacity: 1;
+}
+.bar-related-details-link-holder .mat-tab-header{
+  border-bottom: none;
+}
+.mat-tab-body{
+  margin-top: 15px;
+  background-color: #fff;
+  padding: 15px;
+}
 
 
 /* ===================== Admin Panel ====================== */
