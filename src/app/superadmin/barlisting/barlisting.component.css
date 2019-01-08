@@ -76,6 +76,7 @@
     justify-content: flex-end;
     align-items: center;
     position: relative;
+    margin-right: 0;
 }
 .barlisting-holder .mat-expansion-panel-header-description ul{
     position: absolute;
