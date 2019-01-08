@@ -141,7 +141,7 @@
 @media (min-width:320px) and (max-width:767px)
 {
     .barlisting-holder .mat-expansion-panel-header {
-        height: auto !important;
+        height: 115px !important;
     }
     .bar-listing-details-wrapper{
         flex-wrap: wrap;
