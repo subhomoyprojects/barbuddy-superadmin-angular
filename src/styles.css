@@ -265,6 +265,40 @@ button,a{
   background-color: #fff;
   padding: 15px;
 }
+.mat-input-element,.mat-select-trigger {
+  padding: 7px 0 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14px !important;
+}
+.mat-form-field {
+  width:100%;
+}
+textarea{
+  resize: none !important;
+}
+.mat-button, .mat-fab, .mat-flat-button, .mat-icon-button, .mat-mini-fab, .mat-raised-button, .mat-stroked-button{
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 0 !important;
+  font-weight: 600;
+  padding: 0 25px !important;
+  min-width: 115px !important;
+}
+.mat-fab.mat-primary, .mat-flat-button.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary {
+  background-color: #3ed08d;
+}
+.mat-fab.mat-accent, .mat-flat-button.mat-accent, .mat-mini-fab.mat-accent, .mat-raised-button.mat-accent {
+  background-color: #dde3e8;
+}
+.mat-raised-button.mat-accent {
+  color: #738f9d;
+}
+@media (min-width:320px) and (max-width:479px){
+  .bardetails-button-controller .mat-button, .bardetails-button-controller .mat-fab, .bardetails-button-controller .mat-flat-button, .bardetails-button-controller .mat-icon-button, .bardetails-button-controller .mat-mini-fab, .bardetails-button-controller .mat-raised-button, .bardetails-button-controller .mat-stroked-button{
+    padding: 0 10px !important;
+    min-width: auto !important;
+    font-size: 11px;
+  }
+}
 
 
 /* ===================== Admin Panel ====================== */

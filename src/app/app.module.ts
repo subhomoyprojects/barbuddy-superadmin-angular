@@ -13,6 +13,9 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
+import {MatButtonModule} from '@angular/material/button';
 
 import { AppRoutingModule } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
@@ -56,7 +59,10 @@ import { OffersComponent } from './superadmin/offers/offers.component';
     MatIconModule,  // Metarial Icon
     MatRadioModule, // Metarial Radio Button
     MatSlideToggleModule, // Metarial Accordine
-    MatTabsModule // Mat tabs
+    MatTabsModule, // Mat tabs
+    MatFormFieldModule, // Mat Form Filed
+    MatSelectModule, // Mat Select Module
+    MatButtonModule // Mat Button Module
   ],
   providers: [],
   bootstrap: [AppComponent]

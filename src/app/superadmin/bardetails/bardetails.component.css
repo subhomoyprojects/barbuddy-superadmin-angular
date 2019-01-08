@@ -1,0 +1,36 @@
+.bardetails-holder{
+    max-width:500px;
+    margin: 0 auto;
+}
+.bardetails-holder li{
+    width:100%;
+    display: flex;
+}
+.bardetails-holder li .half{
+    width:50%;
+}
+.bardetails-holder li .half:first-child{
+    margin-right: 15px;
+}
+.flex-left{
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-right{
+    display: flex;
+    justify-content: flex-end;
+}
+@media (min-width:320px) and (max-width:479px){
+    .bardetails-holder li{
+        flex-wrap: wrap;
+    }
+    .bardetails-holder li .half{
+        width:100%;
+    }
+    .bardetails-holder li .half:first-child{
+        margin-right: 0;
+    }
+    .bardetails-holder li.bardetails-button-controller .half{
+        width:50%;
+    }
+}

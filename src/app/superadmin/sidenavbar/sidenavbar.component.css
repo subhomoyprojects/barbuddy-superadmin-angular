@@ -40,7 +40,7 @@
 .sidebar {
 	width: 90px !important;
 	background-color: #37474f;
-	min-height: calc(100vh - 56px);
+	height: 100%;
 }
 .sidebar .nav-item:last-child {
 	margin-bottom: 1rem;
@@ -136,7 +136,7 @@
 }
 .sidebar.fixed-top {
 	top: 56px;
-	height: calc(100vh - 56px);
+	height: 100%;
 	overflow-y: auto;
 }
 .card-body-icon {

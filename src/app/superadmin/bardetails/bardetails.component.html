@@ -1,1 +1,76 @@
-<p>bardetails component</p>
+<section class="bardetails-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <ul class="bardetails-holder">
+                    <li>
+                        <mat-form-field>
+                            <mat-label>Bar Name</mat-label>
+                            <input matInput placeholder="Offer name goes here" [formControl]="text" required>
+                            <mat-error *ngIf="text.invalid">{{getInputErrorMessage()}}</mat-error>
+                        </mat-form-field>
+                    </li>
+                    <li>
+                        <mat-form-field>
+                            <mat-label>Bar Description</mat-label>
+                            <input matInput placeholder="Bar name goes here">
+                        </mat-form-field>
+                    </li>
+                    <li>
+                        <mat-form-field>
+                            <mat-label>Registrar name</mat-label>
+                            <input matInput placeholder="Subhomoy Pal">
+                        </mat-form-field>
+                    </li>
+                    <li>
+                        <mat-form-field>
+                            <mat-label>Email Address</mat-label>
+                            <input matInput placeholder="info@info.com" [formControl]="email" required>
+                            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                        </mat-form-field>
+                    </li>
+                    <li>
+                        <mat-form-field>
+                            <mat-label>Address</mat-label>
+                            <textarea matInput placeholder="223 E. Concord Street, Orlando, FL 32801"></textarea>
+                        </mat-form-field>
+                    </li>
+                    <li>
+                        <div class="half">
+                            <mat-form-field>
+                                <mat-label>Zip Code</mat-label>
+                                <input matInput placeholder="45612352">
+                            </mat-form-field>
+                        </div>
+                        <div class="half">
+                            <mat-form-field>
+                                <mat-label>Phone Number</mat-label>
+                                <input matInput maxlength="10" placeholder="1234567890" type="number">
+                            </mat-form-field>
+                        </div>
+                    </li>
+                    <li>
+                        <mat-form-field
+                            [hideRequiredMarker]="options.value.hideRequired"
+                            [floatLabel]="options.value.floatLabel">
+                            <mat-select required>
+                            <mat-option>-- None --</mat-option>
+                            <mat-option value="Premium">Premium</mat-option>
+                            <mat-option value="Free">Free</mat-option>
+                            </mat-select>
+                            <mat-label>Plan</mat-label>
+                        </mat-form-field>
+                    </li>
+                    <li class="bardetails-button-controller">
+                        <div class="half flex-left">
+                            <button mat-raised-button color="primary">Save Changes</button>
+                        </div>
+                        <div class="half flex-right">
+                            <button mat-raised-button color="accent">Back</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
