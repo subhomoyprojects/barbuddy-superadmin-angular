@@ -1,0 +1,30 @@
+.bardetails-holder{
+    max-width:500px;
+    margin: 0 auto;
+}
+.bardetails-holder li{
+    width:100%;
+    display: flex;
+}
+.bardetails-holder li .half{
+    width:50%;
+}
+.bardetails-holder li .half:first-child{
+    margin-right: 15px;
+}
+.bardetails-holder li > label{
+    color: rgba(0,0,0,.54);
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px !important;
+}
+@media (min-width:320px) and (max-width:479px){
+    .bardetails-holder li{
+        flex-wrap: wrap;
+    }
+    .bardetails-holder li .half{
+        width:100%;
+    }
+    .bardetails-holder li .half:first-child{
+        margin-right: 0;
+    }
+}
