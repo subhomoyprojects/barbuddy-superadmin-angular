@@ -20,8 +20,13 @@
                       </mat-form-field>
                   </div>
                 </li>
-                <li>
-                   
+                <li class="owl-controller">
+                  <owl-carousel-o class="moreinfo-owl-holder" [options]="customOptions">
+                    <ng-template carouselSlide id="owl-slide-1"><img src="assets/images/thumbnel_1.jpg" alt="Image"></ng-template>  
+                    <ng-template carouselSlide id="owl-slide-2"><img src="assets/images/thumbnel_2.jpg" alt="Image"></ng-template>  
+                    <ng-template carouselSlide id="owl-slide-3"><img src="assets/images/thumbnel_3.jpg" alt="Image"></ng-template>  
+                    <ng-template carouselSlide id="owl-slide-4"><img src="assets/images/bar.jpg" alt="Image"></ng-template>
+                  </owl-carousel-o>
                 </li>
               </ul>
           </div>
