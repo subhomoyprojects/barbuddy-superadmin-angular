@@ -20,13 +20,37 @@
                       </mat-form-field>
                   </div>
                 </li>
-                <li class="owl-controller">
+                <!-- <li class="owl-controller">
                   <owl-carousel-o class="moreinfo-owl-holder" [options]="customOptions">
                     <ng-template carouselSlide id="owl-slide-1"><img src="assets/images/thumbnel_1.jpg" alt="Image"></ng-template>  
                     <ng-template carouselSlide id="owl-slide-2"><img src="assets/images/thumbnel_2.jpg" alt="Image"></ng-template>  
                     <ng-template carouselSlide id="owl-slide-3"><img src="assets/images/thumbnel_3.jpg" alt="Image"></ng-template>  
                     <ng-template carouselSlide id="owl-slide-4"><img src="assets/images/bar.jpg" alt="Image"></ng-template>
                   </owl-carousel-o>
+                </li> -->
+                <li class="mt-4">
+                  <div class="file_type_controller text-center">
+                    <input id="uploadFile" style="display: none;" type="file">
+                    <button type="button" class="plus_icon upload_file upload-file-supad" onclick="document.getElementById('uploadFile').click();"></button>
+                  </div>
+                </li>
+                <!-- <li class="owl-controller">
+                  <owl-carousel-o class="moreinfo-owl-holder" [options]="customOptions">
+                    <ng-template carouselSlide id="owl-slide-1"><img src="assets/images/thumbnel_1.jpg" alt="Image"></ng-template>  
+                    <ng-template carouselSlide id="owl-slide-2"><img src="assets/images/thumbnel_2.jpg" alt="Image"></ng-template>  
+                    <ng-template carouselSlide id="owl-slide-3"><img src="assets/images/thumbnel_3.jpg" alt="Image"></ng-template>  
+                    <ng-template carouselSlide id="owl-slide-4"><img src="assets/images/bar.jpg" alt="Image"></ng-template>
+                  </owl-carousel-o>
+                </li> -->
+                <li>
+                  <label class="mr-3">Live Music</label>
+                  <mat-slide-toggle></mat-slide-toggle>
+                </li>
+                <li>
+                    <mat-form-field>
+                        <mat-label>Description</mat-label>
+                        <input matInput placeholder="Description About Bar">
+                    </mat-form-field>
                 </li>
               </ul>
           </div>
