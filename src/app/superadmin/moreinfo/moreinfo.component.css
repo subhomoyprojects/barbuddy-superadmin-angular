@@ -17,6 +17,9 @@
     font-family: 'Open Sans', sans-serif !important;
     font-size: 14px !important;
 }
+.moreinfo-owl-holder{
+    width:100%;
+}
 @media (min-width:320px) and (max-width:479px){
     .bardetails-holder li{
         flex-wrap: wrap;

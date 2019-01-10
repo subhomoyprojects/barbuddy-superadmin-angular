@@ -30,7 +30,9 @@ import { MoreinfoComponent } from './superadmin/moreinfo/moreinfo.component';
 import { DrinksComponent } from './superadmin/drinks/drinks.component';
 import { FoodComponent } from './superadmin/food/food.component';
 import { OffersComponent } from './superadmin/offers/offers.component';
+
 import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -64,7 +66,8 @@ import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
     MatFormFieldModule, // Mat Form Filed
     MatSelectModule, // Mat Select Module
     MatButtonModule, // Mat Button Module
-    NgxMaterialTimepickerModule.forRoot() // For Time Picker
+    NgxMaterialTimepickerModule.forRoot(), // For Time Picker
+    CarouselModule // For Ngx Owl Carousel Module
   ],
   providers: [],
   bootstrap: [AppComponent]

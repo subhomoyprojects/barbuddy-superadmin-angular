@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {FormControl, Validators, FormBuilder, FormGroup}   from '@angular/forms';
-
 
 @Component({
   selector: 'app-moreinfo',
@@ -12,6 +10,27 @@ export class MoreinfoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+  customOptions: any = {
+    loop: true,
+    mouseDrag: true,
+    touchDrag: false,
+    pullDrag: false,
+    dots: false,
+    navSpeed: 700,
+    navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 2
+      },
+      740: {
+        items: 3
+      }
+    },
+    nav: true
   }
 
 }
