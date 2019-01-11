@@ -36,6 +36,7 @@ import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BeerComponent } from './superadmin/beer/beer.component';
 import { LiquorComponent } from './superadmin/liquor/liquor.component';
+import { ModalholderComponent } from './superadmin/modalholder/modalholder.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { LiquorComponent } from './superadmin/liquor/liquor.component';
     FoodComponent,
     OffersComponent,
     BeerComponent,
-    LiquorComponent
+    LiquorComponent,
+    ModalholderComponent
   ],
   imports: [
     BrowserModule,
