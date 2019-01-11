@@ -16,6 +16,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 import {MatButtonModule} from '@angular/material/button';
+import {MatListModule} from '@angular/material/list';
 
 import { AppRoutingModule } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
@@ -71,7 +72,8 @@ import { LiquorComponent } from './superadmin/liquor/liquor.component';
     MatSelectModule, // Mat Select Module
     MatButtonModule, // Mat Button Module
     NgxMaterialTimepickerModule.forRoot(), // For Time Picker
-    CarouselModule // For Ngx Owl Carousel Module
+    CarouselModule, // For Ngx Owl Carousel Module
+    MatListModule // Mat List Item
   ],
   providers: [],
   bootstrap: [AppComponent]

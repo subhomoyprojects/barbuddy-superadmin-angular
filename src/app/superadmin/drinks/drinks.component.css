@@ -1,0 +1,60 @@
+.heading-tag h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #686868;
+    text-align: center;
+}
+.drinks-category-holder{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.drinks-category-holder .mat-list-item{
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    color: #590ae0;
+    box-shadow: 5px 0 21px rgba(157,157,157,0.29);
+}
+.drinks-category-holder .mat-list-item a,
+.drinks-category-holder .mat-list-item button{
+    max-width:150px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    color: #9029e3;
+}
+.cheers-icon{
+    width: 30px;
+    height: 32px;
+    background:  url('data:image/png;base64,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') no-repeat;
+    display: inline-block;
+    background-size: 100%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.drinks-category-controller .mat-divider{
+    max-width: 60%;
+    margin: 10px auto;
+}
+.green-modal-opener-btn{
+    color: #fff;
+    background-color: #3ed08d;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 0 0 2px rgba(0,0,0,0.2);
+    display: table;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 25px auto 15px;
+}

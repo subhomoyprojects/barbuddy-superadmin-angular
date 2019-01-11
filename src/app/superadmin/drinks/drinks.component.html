@@ -1,3 +1,15 @@
-<p>
-  drinks works!
-</p>
+<section class="drinks-category-wrapper">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 mt-3 drinks-category-controller heading-tag">
+        <h3>Categories Added</h3>
+        <mat-list role="list" class="mt-3 mb-4 drinks-category-holder glass-icon">
+          <mat-list-item role="listitem"><a routerLink="/drinks/beer"><span class="cheers-icon"></span> Beer</a></mat-list-item>
+          <mat-list-item role="listitem"><a routerLink="/drinks/liquor"><span class="cheers-icon"></span> Liquor</a></mat-list-item>
+        </mat-list>    
+        <mat-divider></mat-divider>   
+        <button type="button" class="green-modal-opener-btn">+ Add Sub Category</button>   
+      </div>
+    </div>
+  </div>
+</section>
