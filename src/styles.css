@@ -300,6 +300,14 @@ textarea{
     font-size: 11px;
   }
 }
+.flex-left{
+  display: flex;
+  justify-content: flex-start;
+}
+.flex-right{
+  display: flex;
+  justify-content: flex-end;
+}
 
 
 /* ===================== Admin Panel ====================== */

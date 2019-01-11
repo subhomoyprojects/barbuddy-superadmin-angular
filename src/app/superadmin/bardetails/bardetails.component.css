@@ -12,14 +12,6 @@
 .bardetails-holder li .half:first-child{
     margin-right: 15px;
 }
-.flex-left{
-    display: flex;
-    justify-content: flex-start;
-}
-.flex-right{
-    display: flex;
-    justify-content: flex-end;
-}
 @media (min-width:320px) and (max-width:479px){
     .bardetails-holder li{
         flex-wrap: wrap;

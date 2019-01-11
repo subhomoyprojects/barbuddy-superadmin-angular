@@ -52,6 +52,44 @@
                         <input matInput placeholder="Description About Bar">
                     </mat-form-field>
                 </li>
+                <li class="flex-verticle-center flex-wrap">
+                  <div class="social-holder mb-2">
+                    <div ngbDropdown class="d-inline-block mr-2 verticle-middle">
+                      <button class="btn btn-outline-primary" id="socialmedialink" ngbDropdownToggle><i class="fa fa-facebook-official"></i></button>
+                      <div ngbDropdownMenu aria-labelledby="socialmedialink" class="social-icon-controller">
+                        <button class="dropdown-item"><i class="fa fa-facebook-official"></i> Facebook</button>
+                        <button class="dropdown-item"><i class="fa fa-twitter-square"></i> Twitter</button>
+                        <button class="dropdown-item"><i class="fa fa-instagram"></i> Instagram</button>
+                      </div>
+                    </div>
+                    <mat-form-field>
+                      <input matInput placeholder="Facebook link goes here">
+                    </mat-form-field>
+                    <button type="button" class="plus_icon ml-2"></button>
+                  </div>
+                  <div class="social-holder mb-2">
+                    <div ngbDropdown class="d-inline-block mr-2 verticle-middle">
+                      <button class="btn btn-outline-primary" id="socialmedialink" ngbDropdownToggle><i class="fa fa-twitter-square"></i></button>
+                      <div ngbDropdownMenu aria-labelledby="socialmedialink" class="social-icon-controller">
+                        <button class="dropdown-item"><i class="fa fa-facebook-official"></i> Facebook</button>
+                        <button class="dropdown-item"><i class="fa fa-twitter-square"></i> Twitter</button>
+                        <button class="dropdown-item"><i class="fa fa-instagram"></i> Instagram</button>
+                      </div>
+                    </div>
+                    <mat-form-field>
+                      <input matInput placeholder="Twitter link goes here">
+                    </mat-form-field>
+                    <button type="button" class="minus_icon ml-2"></button>
+                  </div>
+                </li>
+                <li class="mt-2 bardetails-button-controller">
+                  <div class="half flex-left">
+                      <button mat-raised-button color="primary">Save Changes</button>
+                  </div>
+                  <div class="half flex-right">
+                      <button mat-raised-button color="accent">Back</button>
+                  </div>
+                </li>
               </ul>
           </div>
       </div>
