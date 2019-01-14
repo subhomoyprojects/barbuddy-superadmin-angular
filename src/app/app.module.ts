@@ -79,6 +79,12 @@ import { ModalComponent } from './superadmin/modal/modal.component';
     MatListModule, // Mat List Item
     MatDialogModule // For Modal
   ],
+  exports: [
+    ModalComponent
+  ],
+  entryComponents: [
+    ModalComponent
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

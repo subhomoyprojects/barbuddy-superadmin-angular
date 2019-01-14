@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {MatDialog} from '@angular/material';
+import {ModalComponent} from '../modal/modal.component';
 
 @Component({
   selector: 'app-drinks',
@@ -7,7 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DrinksComponent implements OnInit {
 
-  constructor() {}
+  constructor(public dialog: MatDialog) {}
+
+  openDialog() {
+    const dialogRef = this.dialog.open(ModalComponent);
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
   
   ngOnInit() {}
   
