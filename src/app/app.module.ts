@@ -18,6 +18,9 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from '@angular/material/list';
 import {MatDialogModule} from '@angular/material/dialog';
+//  Mat Chip Module
+import {MatChipsModule} from '@angular/material/chips';
+import {MatAutocompleteModule} from '@angular/material';
 
 import { AppRoutingModule } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
@@ -77,7 +80,9 @@ import { ModalComponent } from './superadmin/modal/modal.component';
     NgxMaterialTimepickerModule.forRoot(), // For Time Picker
     CarouselModule, // For Ngx Owl Carousel Module
     MatListModule, // Mat List Item
-    MatDialogModule // For Modal
+    MatDialogModule, // For Modal
+    MatChipsModule, // For Mat Chip
+    MatAutocompleteModule, // For Auto Complete
   ],
   exports: [
     ModalComponent
