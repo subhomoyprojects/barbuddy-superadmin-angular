@@ -308,6 +308,9 @@ textarea{
   display: flex;
   justify-content: flex-end;
 }
+.mat-dialog-container {
+  max-width:50vw;
+}
 
 
 /* ===================== Admin Panel ====================== */
