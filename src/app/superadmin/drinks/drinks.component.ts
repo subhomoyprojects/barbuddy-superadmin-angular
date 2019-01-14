@@ -10,11 +10,11 @@ import {ModalComponent} from '../modal/modal.component';
 export class DrinksComponent implements OnInit {
 
   constructor(public dialog: MatDialog) {}
+  
+  ngOnInit() {}
 
   openDialog() {
     const dialogRef = this.dialog.open(ModalComponent);
   }
-  
-  ngOnInit() {}
   
 }
