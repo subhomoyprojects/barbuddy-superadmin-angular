@@ -1,0 +1,12 @@
+.two-eliment-show-oneline{
+    flex-wrap: wrap;
+}
+.two-eliment-show-oneline .col{
+    width:50%;
+    margin: 7px;
+}
+.drink-main-content-wrapper .price-input{
+    max-width:100px;
+    width:100%;
+    display: inline-block;
+}

@@ -405,6 +405,17 @@ textarea{
 .drink-padding-right-105 ul.nav {
   padding-right: 105px;
 }
+.two-eliment-show-oneline .mat-checkbox-layout span{
+  color: #686868;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  position: relative;
+  max-width:180px;
+  font-family: 'Open Sans', sans-serif;
+}
 
 
 
