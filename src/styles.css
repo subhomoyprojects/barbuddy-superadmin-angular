@@ -436,6 +436,9 @@ label{
   right: 0;
   margin: 0 auto;
 }
+.flex-tab-left .nav{
+  justify-content: flex-start !important;
+}
 
 
 
