@@ -12,13 +12,13 @@
         </div>
         <!-- Title End -->
         <div class="row">
-          <div class="col-12 drinks-tab-controller drink-padding-right-105">
+          <div class="col-12 drinks-tab-controller">
             <div class="white-container">
               <!-- Parent Tab Start -->
                 <div class="add-sub-cat-holder flex-right">
                   <button type="button" class="add-another-sub-category-btn">Add Another Sub Category</button>
                 </div>
-                <ngb-tabset type="pills">
+                <ngb-tabset class="drink-padding-right-105" type="pills">
                   <ngb-tab>
                     <ng-template ngbTabTitle>Well Drinks</ng-template>
                     <ng-template ngbTabContent>
@@ -32,8 +32,8 @@
                     <ng-template ngbTabTitle>Cocktail Upgrades</ng-template>
                     <ng-template ngbTabContent>
                       <div class="drink-main-content-holder">
-                        <app-drinksidenav></app-drinksidenav>
-                        <app-drinkmaincontent></app-drinkmaincontent>
+                        <!-- <app-drinksidenav class="grow2"></app-drinksidenav> -->
+                        <app-drinkmaincontent class="grow8"></app-drinkmaincontent>
                       </div>
                     </ng-template>
                   </ngb-tab>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {NgbTabsetConfig} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-drinkmaincontent',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DrinkmaincontentComponent implements OnInit {
 
-  constructor() { }
-
   ngOnInit() {
   }
+
+  constructor(config: NgbTabsetConfig) {
+    config.justify = 'center';
+   }
 
 }

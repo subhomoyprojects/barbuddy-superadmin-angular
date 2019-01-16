@@ -42,6 +42,7 @@ import { BeerComponent } from './superadmin/beer/beer.component';
 import { ModalComponent } from './superadmin/modal/modal.component';
 import { DrinksidenavComponent } from './superadmin/drinksidenav/drinksidenav.component';
 import { DrinkmaincontentComponent } from './superadmin/drinkmaincontent/drinkmaincontent.component';
+import { DrinkitemComponent } from './superadmin/drinkitem/drinkitem.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { DrinkmaincontentComponent } from './superadmin/drinkmaincontent/drinkma
     BeerComponent,
     ModalComponent,
     DrinksidenavComponent,
-    DrinkmaincontentComponent
+    DrinkmaincontentComponent,
+    DrinkitemComponent
   ],
   imports: [
     BrowserModule,

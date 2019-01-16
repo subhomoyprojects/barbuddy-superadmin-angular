@@ -1,11 +1,15 @@
 .drink-nav-holder{
     background-color: #f6f6f6;
     padding: 15px;
-    width: 250px;
-    max-width: 250px;
+    background-color: #f6f6f6;
+    padding: 15px;
+    width: 210px;
+    max-width: 210px;
+    height: 100%;
 }
 .drink-side-navwrapper{
     margin-right: 15px;
+    height: 100%;
 }
 .drink-nav-holder li a{
     font-size: 15px;

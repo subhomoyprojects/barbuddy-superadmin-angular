@@ -3,10 +3,57 @@
 }
 .two-eliment-show-oneline .col{
     width:50%;
-    margin: 7px;
+    margin: 7px 0;
 }
 .drink-main-content-wrapper .price-input{
-    max-width:100px;
     width:100%;
     display: inline-block;
+}
+.price-input{
+    height: 34px;
+    font-size: 13px;
+    padding: 7px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #590ae0;
+}
+.flex-verticle-center{
+    align-items: center;
+}
+.select-all-drink-item{
+    padding: 15px 20px;
+    border: 1px solid #abbcc4;
+    border-radius: 6px;
+    display: flex;
+    flex-grow: 1;
+}
+.select-all-drink-item .common-filter-item-drink{
+    width:20%;
+    font-size: 14px;
+    color: #666666;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select-all-drink-item .common-filter-item-drink:nth-child(2){
+    width:40%;
+    justify-content: flex-end;
+}
+.select-all-drink-item .common-filter-item-drink:nth-child(1){
+    justify-content: flex-start;
+}
+.select-all-drink-item  .drnik-filter-apply,.drnik-filter-apply{
+    color: #fff;
+    background-color: #3ed08d;
+    height: 34px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 0 15px;
+    line-height: 34px;
 }
