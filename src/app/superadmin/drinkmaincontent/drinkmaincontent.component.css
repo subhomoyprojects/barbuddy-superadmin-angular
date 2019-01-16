@@ -57,3 +57,17 @@
     padding: 0 15px;
     line-height: 34px;
 }
+.add-drink-manually-btn button{
+    color: #fff;
+    background-color: #3ed08d;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 0 15px;
+    line-height: 40px;
+}
