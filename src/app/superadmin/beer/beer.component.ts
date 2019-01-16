@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {MatDialog} from '@angular/material';
+import {ModalComponent} from '../modal/modal.component';
 
 @Component({
   selector: 'app-beer',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BeerComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
-  ngOnInit() {
+  ngOnInit() {}
+  
+  openDialog() {
+    const dialogRef = this.dialog.open(ModalComponent);
   }
 
 }
