@@ -1,0 +1,29 @@
+.search-icon-holder::after{
+    content: "\f002";
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    left: auto;
+    pointer-events: none;
+    font-family: 'FontAwesome';
+    color: #90a6b0;
+    bottom: 26px;
+}
+.search-icon-holder input{
+    padding-right: 25px;
+}
+.filter-btn{
+    color: #590ae0;
+    font-size: 34px;
+}
+.filter-btn::after{
+    display: none;
+}
+.filter-dropdown-holder .dropdown-item{
+    padding-left: 0;
+    padding-right:0;
+}
+.filter-dropdown-holder .dropdown-item:focus, 
+.filter-dropdown-holder .dropdown-item:hover{
+    background-color: transparent;
+}

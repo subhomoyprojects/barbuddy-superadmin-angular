@@ -1,3 +1,80 @@
-<p>
-  food works!
-</p>
+<!-- Filter Start -->
+<div class="row">
+    <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+      <mat-form-field class="search-icon-holder input-focus full-width">
+        <input matInput placeholder="Search By Food Name">
+      </mat-form-field>
+    </div>
+    <div class="col-12 col-sm-12 col-md-2 col-lg-8 text-right">
+        <div ngbDropdown class="d-inline-block filter-dropdown-holder">
+            <button class="filter-btn" id="dropdownConfig" ngbDropdownToggle><i class="fa fa-sliders"></i></button>
+            <ul ngbDropdownMenu aria-labelledby="dropdownConfig">
+                <li class="dropdown-item">
+                    <mat-accordion>
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                Filter By Plan
+                            </mat-expansion-panel-header>
+                            <ul class="mt-2">
+                                <li><mat-checkbox>Free</mat-checkbox></li>
+                                <li><mat-checkbox>Premium</mat-checkbox></li>
+                            </ul>
+                        </mat-expansion-panel>
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                Filter by Renewal Status
+                            </mat-expansion-panel-header>
+                            <ul class="mt-2">
+                                <li><mat-checkbox>Done</mat-checkbox></li>
+                                <li><mat-checkbox>Upcoming</mat-checkbox></li>
+                                <li><mat-checkbox>Failed</mat-checkbox></li>
+                            </ul>
+                        </mat-expansion-panel>
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                Filter by Status
+                            </mat-expansion-panel-header>
+                            <ul class="mt-2">
+                                <li><mat-checkbox>Active</mat-checkbox></li>
+                                <li><mat-checkbox>Inactive</mat-checkbox></li>
+                            </ul>
+                        </mat-expansion-panel>
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                Filter by Rating
+                            </mat-expansion-panel-header>
+                            <ul class="mt-2">
+                                <li>
+                                    <mat-checkbox>
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </mat-checkbox>
+                                </li>
+                                <li>
+                                    <mat-checkbox>
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </mat-checkbox>
+                                </li>
+                                <li>
+                                    <mat-checkbox>
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </mat-checkbox>
+                                </li>
+                                <li>
+                                    <mat-checkbox>
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </mat-checkbox>
+                                </li>
+                                <li>
+                                    <mat-checkbox>
+                                        <i class="fa fa-star"></i>
+                                    </mat-checkbox>
+                                </li>
+                            </ul>
+                        </mat-expansion-panel>
+                    </mat-accordion>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </div>
+  <!-- Filter End -->

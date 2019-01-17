@@ -261,6 +261,14 @@ button,a{
   margin-top: 15px;
   background-color: #fff;
   padding: 15px;
+  bottom: auto !important;
+  overflow: visible !important;
+}
+.mat-tab-body-wrapper{
+  overflow: visible !important;
+}
+.mat-tab-body-content {
+  overflow: visible !important;
 }
 .mat-input-element,.mat-select-trigger {
   padding: 7px 0 !important;
@@ -458,7 +466,6 @@ label{
 .drink-available-on-holder > div .mat-checkbox:not(:last-child){
   margin-right: 1rem;
 }
-
 
 
 /* ===================== Admin Panel ====================== */

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {NgbDropdownConfig} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-food',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FoodComponent implements OnInit {
 
-  constructor() { }
+  constructor(config: NgbDropdownConfig) {
+    config.placement = 'bottom-right';
+    config.autoClose = false;
+   }
 
   ngOnInit() {
   }
