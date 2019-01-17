@@ -439,6 +439,22 @@ label{
 .flex-tab-left > .nav{
   justify-content: flex-start !important;
 }
+.modal-dialog, .modal.show .modal-dialog {
+  max-width: 550px;
+}
+.modal-content{
+  border-radius: 0;
+}
+.cdk-global-overlay-wrapper, .cdk-overlay-container {
+  z-index: 99999 !important;
+}
+.drink-available-on-holder > div .mat-checkbox-layout .mat-checkbox-label{
+  font-size: 14px;
+  color: #8f2de2;
+}
+.drink-available-on-holder > div .mat-checkbox:not(:last-child){
+  margin-right: 1rem;
+}
 
 
 

@@ -35,16 +35,60 @@
         <!-- Add Drink Manually Modal Start -->
         <ng-template #addDrinkManuallyModal let-c="close" let-d="dismiss">
           <div class="modal-header">
-            <h4 class="modal-title" id="modal-basic-title">Hi there!</h4>
+            <h4 class="modal-title" id="modal-basic-title">Add Drink Manually</h4>
             <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
-              <span aria-hidden="true">&times;</span>
+              <i class="fa fa-times-circle"></i>
             </button>
           </div>
           <div class="modal-body">
-            <p>Hello, World!</p>
+            <ul class="add-drink-manually-form">
+              <li>
+                <mat-form-field class="example-full-width mr-4 quarter3">
+                  <input matInput placeholder="Drink Name">
+                </mat-form-field>
+                <mat-form-field class="example-full-width quarter1">
+                  <input matInput placeholder="price">
+                </mat-form-field>
+              </li>
+              <li>
+                <mat-form-field>
+                  <textarea matInput placeholder="Short Description"></textarea>
+                </mat-form-field>
+              </li>
+              <li>
+                <mat-form-field class="half mr-4">
+                  <mat-select placeholder="Category">
+                    <mat-option value="Beer">Beer</mat-option>
+                    <mat-option value="Liquor">Liquor</mat-option>
+                  </mat-select>
+                </mat-form-field>
+                <mat-form-field class="half">
+                  <mat-select placeholder="Type">
+                    <mat-option value="Vodka">Vodka</mat-option>
+                    <mat-option value="Liquor">Liquor</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </li>
+              <li class="mb-4 drink-available-on-holder">
+                <label class="mr-4">Drinks Available On:</label>
+                <div>
+                    <mat-checkbox>Draft</mat-checkbox>
+                    <mat-checkbox>Bottle</mat-checkbox>
+                </div>
+              </li>
+              <li class="speciality-drink-modal mb-3">
+                <label>Is thiis is a speciality drink on your bar?</label>
+                <mat-slide-toggle class="ml-3"></mat-slide-toggle>
+              </li>
+            </ul>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-outline-dark" (click)="c('Save click')">Save</button>
+            <div class="half flex-left">
+                <button mat-raised-button color="accent" (click)="d('Cross click')">Back</button>
+            </div>
+            <div class="half flex-right">
+                <button mat-raised-button color="primary" (click)="c('Save click')">Save Changes</button>
+            </div>
           </div>
         </ng-template>
         <!-- Add Drink Manually Modal End -->
