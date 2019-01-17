@@ -446,10 +446,10 @@ label{
   border-radius: 0;
 }
 .modal-backdrop{
-  z-index: 99;
+  z-index: 99 !important;
 }
 .modal{
-  z-index: 999;
+  z-index: 999 !important;
 }
 .drink-available-on-holder > div .mat-checkbox-layout .mat-checkbox-label{
   font-size: 14px;
