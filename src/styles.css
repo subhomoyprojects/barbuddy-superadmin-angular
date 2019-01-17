@@ -445,8 +445,11 @@ label{
 .modal-content{
   border-radius: 0;
 }
-.cdk-global-overlay-wrapper, .cdk-overlay-container {
-  z-index: 99999 !important;
+.modal-backdrop{
+  z-index: 99;
+}
+.modal{
+  z-index: 999;
 }
 .drink-available-on-holder > div .mat-checkbox-layout .mat-checkbox-label{
   font-size: 14px;
