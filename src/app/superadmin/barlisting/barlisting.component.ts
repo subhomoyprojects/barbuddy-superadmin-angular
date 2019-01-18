@@ -31,7 +31,7 @@ export class BarlistingComponent implements OnInit {
   });
   this.myPanel1.expandedChange.subscribe((data) => {
     this.matIcon1 = data ? 'keyboard_arrow_up' : 'keyboard_arrow_down';
-});
+  });
   }
 
   // Metarial Accordine Axpend by click arrow button

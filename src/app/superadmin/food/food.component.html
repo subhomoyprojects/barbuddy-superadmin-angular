@@ -76,5 +76,75 @@
             </ul>
         </div>
     </div>
-  </div>
+</div>
   <!-- Filter End -->
+  <!-- Listing Items Start -->
+  <div class="row">
+      <div class="col-12 barlisting-holder">
+          <mat-accordion>
+              <mat-expansion-panel class="mb-3" #myPanel [disabled]="true">
+                  <mat-expansion-panel-header>
+                  <mat-panel-title>
+                      <ul>
+                          <li class="barlisting-img-holder"><img src="/assets/images/bar.jpg" alt="Bar"></li>
+                          <li>Braised Leeks with Mozzarella & a Fried Egg</li>
+                      </ul>
+                  </mat-panel-title>
+                  <mat-panel-description>
+                      <ul>
+                          <li>Renewal : Done</li>
+                          <li><a routerLink="/superadmin/managebar" class="edit-button"><i class="fa fa-pencil"></i></a></li>
+                          <li><button type="button" class="delate-button"><i class="fa fa-trash-o"></i></button></li>
+                          <li class="accordine-opener"><button mat-icon-button color="primary" (click)="expandPannel()"><mat-icon>{{matIcon}}</mat-icon></button></li>
+                      </ul>
+                  </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <!-- Main Listing Contant Holder Start -->
+                  <div class="listing-details heading-tag">
+                    <div class="bar-listing-details-wrapper">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <div class="spacility-food">
+                            <div class="flex-left"><mat-slide-toggle>Speciality Food?</mat-slide-toggle></div>
+                            <div class="flex-right">
+                                <p class="color-green"><span class="mr-1">Price:</span><strong>$45</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- Main Listing Contant Holder Start -->
+              </mat-expansion-panel>
+              <mat-expansion-panel class="mb-3" #myPanel1 [disabled]="true">
+                  <mat-expansion-panel-header>
+                  <mat-panel-title>
+                      <ul>
+                          <li class="barlisting-img-holder"><img src="/assets/images/bar.jpg" alt="Bar"></li>
+                          <li>Malted Custard French Toast</li>
+                      </ul>
+                  </mat-panel-title>
+                  <mat-panel-description>
+                      <ul>
+                          <li>Renewal : Done</li>
+                          <li><a routerLink="/superadmin/managebar" class="edit-button"><i class="fa fa-pencil"></i></a></li>
+                          <li><button type="button" class="delate-button"><i class="fa fa-trash-o"></i></button></li>
+                          <li class="accordine-opener"><button mat-icon-button color="primary" (click)="expandPannel1()"><mat-icon>{{matIcon}}</mat-icon></button></li>
+                      </ul>
+                  </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <!-- Main Listing Contant Holder Start -->
+                  <div class="listing-details heading-tag">
+                    <div class="bar-listing-details-wrapper">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <div class="spacility-food">
+                            <div class="flex-left"><mat-slide-toggle>Speciality Food?</mat-slide-toggle></div>
+                            <div class="flex-right">
+                                <p class="color-green"><span class="mr-1">Price:</span><strong>$45</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- Main Listing Contant Holder Start -->
+              </mat-expansion-panel>
+          </mat-accordion>
+      </div>
+  </div>
+  <!-- Listing Items End -->
