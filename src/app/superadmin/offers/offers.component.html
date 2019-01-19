@@ -1,3 +1,161 @@
-<p>
-  offers works!
-</p>
+<!-- Filter Start -->
+<div class="row">
+  <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+    <mat-form-field class="search-icon-holder input-focus full-width">
+      <input matInput placeholder="Search By Offer Name">
+    </mat-form-field>
+  </div>
+  <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+    <mat-form-field class="search-icon-holder input-focus full-width">
+      <input matInput placeholder="Search By Valid Date">
+    </mat-form-field>
+  </div>
+  <div class="col-12 col-sm-12 col-md-2 col-lg-4 text-right">
+      <div ngbDropdown class="d-inline-block filter-dropdown-holder">
+          <button class="filter-btn" id="dropdownConfig" ngbDropdownToggle><i class="fa fa-sliders"></i></button>
+          <ul ngbDropdownMenu aria-labelledby="dropdownConfig">
+              <li class="dropdown-item">
+                  <mat-accordion>
+                      <mat-expansion-panel>
+                          <mat-expansion-panel-header>
+                              Filter By Plan
+                          </mat-expansion-panel-header>
+                          <ul class="mt-2">
+                              <li><mat-checkbox>Free</mat-checkbox></li>
+                              <li><mat-checkbox>Premium</mat-checkbox></li>
+                          </ul>
+                      </mat-expansion-panel>
+                      <mat-expansion-panel>
+                          <mat-expansion-panel-header>
+                              Filter by Renewal Status
+                          </mat-expansion-panel-header>
+                          <ul class="mt-2">
+                              <li><mat-checkbox>Done</mat-checkbox></li>
+                              <li><mat-checkbox>Upcoming</mat-checkbox></li>
+                              <li><mat-checkbox>Failed</mat-checkbox></li>
+                          </ul>
+                      </mat-expansion-panel>
+                      <mat-expansion-panel>
+                          <mat-expansion-panel-header>
+                              Filter by Status
+                          </mat-expansion-panel-header>
+                          <ul class="mt-2">
+                              <li><mat-checkbox>Active</mat-checkbox></li>
+                              <li><mat-checkbox>Inactive</mat-checkbox></li>
+                          </ul>
+                      </mat-expansion-panel>
+                      <mat-expansion-panel>
+                          <mat-expansion-panel-header>
+                              Filter by Rating
+                          </mat-expansion-panel-header>
+                          <ul class="mt-2">
+                              <li>
+                                  <mat-checkbox>
+                                      <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                  </mat-checkbox>
+                              </li>
+                              <li>
+                                  <mat-checkbox>
+                                      <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                  </mat-checkbox>
+                              </li>
+                              <li>
+                                  <mat-checkbox>
+                                      <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                  </mat-checkbox>
+                              </li>
+                              <li>
+                                  <mat-checkbox>
+                                      <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                  </mat-checkbox>
+                              </li>
+                              <li>
+                                  <mat-checkbox>
+                                      <i class="fa fa-star"></i>
+                                  </mat-checkbox>
+                              </li>
+                          </ul>
+                      </mat-expansion-panel>
+                  </mat-accordion>
+              </li>
+          </ul>
+      </div>
+  </div>
+</div>
+<!-- Filter End -->
+<!-- Listing Items Start -->
+<div class="row">
+    <div class="col-12 barlisting-holder">
+        <mat-accordion>
+            <mat-expansion-panel class="mb-3" #myPanel [disabled]="true">
+                <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <ul>
+                        <li class="barlisting-img-holder"><img src="/assets/images/bar.jpg" alt="Bar"></li>
+                        <li>Offer name goes here</li>
+                    </ul>
+                </mat-panel-title>
+                <mat-panel-description>
+                    <ul>
+                      <li><a routerLink="/superadmin/managebar" class="edit-button"><i class="fa fa-pencil"></i></a></li>
+                      <li><button type="button" class="delate-button"><i class="fa fa-trash-o"></i></button></li>
+                      <li class="accordine-opener"><button mat-icon-button color="primary" (click)="expandPannel()"><mat-icon>{{matIcon}}</mat-icon></button></li>
+                    </ul>
+                </mat-panel-description>
+                </mat-expansion-panel-header>
+                <!-- Main Listing Contant Holder Start -->
+                <div class="listing-details heading-tag">
+                  <div class="bar-listing-details-wrapper">
+                    <div class="row">
+                      <div class="col-12 col-sm-6 col-md-4">
+                        <article>Is this a Popular Offer? <span class="text-uppercase no">No</span></article>
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-4">
+                        <article>Is this a Popular Offer? <span class="text-uppercase yes">Yes</span></article>
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-4 offer-active-inactive flex-right">
+                        <mat-slide-toggle checked>Active</mat-slide-toggle>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Main Listing Contant Holder Start -->
+            </mat-expansion-panel>
+            <mat-expansion-panel class="mb-3" #myPanel1 [disabled]="true">
+                <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <ul>
+                      <li class="barlisting-img-holder"><img src="/assets/images/bar.jpg" alt="Bar"></li>
+                      <li>Offer name goes here</li>
+                    </ul>
+                </mat-panel-title>
+                <mat-panel-description>
+                    <ul>
+                      <li><a routerLink="/superadmin/managebar" class="edit-button"><i class="fa fa-pencil"></i></a></li>
+                      <li><button type="button" class="delate-button"><i class="fa fa-trash-o"></i></button></li>
+                      <li class="accordine-opener"><button mat-icon-button color="primary" (click)="expandPannel1()"><mat-icon>{{matIcon}}</mat-icon></button></li>
+                    </ul>
+                </mat-panel-description>
+                </mat-expansion-panel-header>
+                <!-- Main Listing Contant Holder Start -->
+                <div class="listing-details heading-tag">
+                  <div class="bar-listing-details-wrapper">
+                    <div class="row">
+                      <div class="col-12 col-sm-6 col-md-4">
+                        <article>Is this a Popular Offer? <span class="text-uppercase no">No</span></article>
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-4">
+                        <article>Is this a Popular Offer? <span class="text-uppercase yes">Yes</span></article>
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-4 offer-active-inactive flex-right">
+                        <mat-slide-toggle>Inactive</mat-slide-toggle>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Main Listing Contant Holder Start -->
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+</div>
+<!-- Listing Items End -->

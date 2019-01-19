@@ -470,6 +470,10 @@ label{
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
+.offer-active-inactive .mat-slide-toggle-content{
+  color: #65808d;
+  font-size: 14px;
+}
 
 
 /* ===================== Admin Panel ====================== */
