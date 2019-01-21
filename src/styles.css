@@ -474,6 +474,12 @@ label{
   color: #65808d;
   font-size: 14px;
 }
+@media (min-width:320px) and (max-width:767px)
+{
+  .mat-tab-body {
+    flex-basis: auto !important;
+  }
+}
 
 
 /* ===================== Admin Panel ====================== */
