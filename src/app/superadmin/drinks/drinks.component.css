@@ -58,3 +58,9 @@
     font-size: 16px;
     margin: 25px auto 15px;
 }
+@media (min-width:320px) and (max-width:479px)
+{
+    .drinks-category-holder{
+        flex-wrap: wrap;
+    }
+}

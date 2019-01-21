@@ -86,4 +86,7 @@
     .bardetails-holder li .half:first-child{
         margin-right: 0;
     }
+    .bardetails-holder li.bardetails-button-controller .half {
+        width: 50%;
+    }
 }

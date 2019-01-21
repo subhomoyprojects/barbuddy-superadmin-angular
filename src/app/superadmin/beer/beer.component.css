@@ -46,3 +46,21 @@
 .grow8{
     flex-grow: 8;
 }
+
+@media (min-width:320px) and (max-width:479px)
+{
+    .drink-main-content-holder {
+        flex-wrap: wrap;
+    }
+    .grow2,.grow8{
+        flex-grow: 1;
+        width:100%;
+    }
+    .add-sub-cat-holder{
+        position: relative;
+        display: flex;
+        right: 0;
+        top: 0;
+        margin-bottom: 10px;
+    }
+}

@@ -400,6 +400,7 @@ textarea{
   line-height: 45px;
   background-color: #fff;
   margin:0 10px 10px 0; 
+  text-align: center;
 }
 .drinks-tab-controller .nav-pills .nav-link.active, 
 .drinks-tab-controller .nav-pills .show > .nav-link{
@@ -478,6 +479,29 @@ label{
 {
   .mat-tab-body {
     flex-basis: auto !important;
+    width: 100%;
+  }
+  .select-all-drink-item {
+    flex-wrap: wrap;
+  }
+  .modal-dialog, .modal.show .modal-dialog {
+    margin-top: 70px;
+  }
+}
+@media (min-width:320px) and (max-width:479px)
+{
+  .social-holder .mat-form-field-wrapper{
+    width:140px;
+  }
+  .drinks-tab-controller .nav-pills .nav-link {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+  .drink-padding-right-105 > ul.nav {
+    padding-right: 0;
+  }
+  .add-drink-manually-form .mat-form-field-infix {
+    width: 110px;
   }
 }
 

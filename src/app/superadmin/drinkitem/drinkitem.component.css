@@ -6,3 +6,9 @@
     background-color: #fff;
     border: 1px solid #590ae0;
 }
+@media (min-width:320px) and (max-width:479px)
+{
+    .bardetails-holder li.bardetails-button-controller .half {
+        width: 50%;
+    }
+}

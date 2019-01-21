@@ -36,3 +36,21 @@
     background-color: #7540d1;
     color: #fff;
 }
+
+@media (min-width:320px) and (max-width:479px)
+{
+    .drink-nav-holder{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    .drink-side-navwrapper{
+        margin:20px 0 20px;
+    }
+    .select-all-drink-item {
+        flex-wrap: wrap;
+    }
+    .drink-nav-holder li:last-child a{
+        margin-right: 0;
+    }
+}
