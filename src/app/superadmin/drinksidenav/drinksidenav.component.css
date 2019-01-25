@@ -54,3 +54,10 @@
         margin-right: 0;
     }
 }
+@media (min-width:480px) and (max-width:767px)
+{
+    .drink-nav-holder {
+        width: 150px;
+        max-width: 150px;
+    }
+}

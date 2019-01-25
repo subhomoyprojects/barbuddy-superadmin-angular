@@ -134,4 +134,7 @@
         flex-wrap: wrap;
         padding: 10px;
     }
+    .add-drink-manually-btn button {
+        max-width: 160px;
+    }
 }
