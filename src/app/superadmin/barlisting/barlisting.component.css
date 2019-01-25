@@ -171,6 +171,9 @@
         flex: 0 0 33.33%;
         margin-bottom: 10px;
     }
+    .barlisting-holder .mat-expansion-panel-header {
+        height: 120px !important;
+    }
 }
 @media (min-width:1025px) and (max-width:1199px)
 {

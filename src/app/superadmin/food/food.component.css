@@ -173,9 +173,12 @@
     .bar-listing-details-wrapper {
         flex-wrap: wrap;
     }
-    .bar-listing-details-wrapper > div{
+    .bar-listing-details-wrapper > div:not(.spacility-food){
         flex: 0 0 33.33%;
         margin-bottom: 10px;
+    }
+    .barlisting-holder .mat-expansion-panel-header {
+        height: 120px !important;
     }
 }
 @media (min-width:1025px) and (max-width:1199px)
@@ -186,7 +189,7 @@
     .bar-listing-details-wrapper {
         flex-wrap: wrap;
     }
-    .bar-listing-details-wrapper > div{
+    .bar-listing-details-wrapper > div:not(.spacility-food){
         flex: 0 0 25%;
         margin-bottom: 10px;
     }
