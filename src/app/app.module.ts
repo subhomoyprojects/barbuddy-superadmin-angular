@@ -43,6 +43,7 @@ import { ModalComponent } from './superadmin/modal/modal.component';
 import { DrinksidenavComponent } from './superadmin/drinksidenav/drinksidenav.component';
 import { DrinkmaincontentComponent } from './superadmin/drinkmaincontent/drinkmaincontent.component';
 import { DrinkitemComponent } from './superadmin/drinkitem/drinkitem.component';
+import { FoodEditComponent } from './superadmin/food-edit/food-edit.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { DrinkitemComponent } from './superadmin/drinkitem/drinkitem.component';
     ModalComponent,
     DrinksidenavComponent,
     DrinkmaincontentComponent,
-    DrinkitemComponent
+    DrinkitemComponent,
+    FoodEditComponent
   ],
   imports: [
     BrowserModule,
