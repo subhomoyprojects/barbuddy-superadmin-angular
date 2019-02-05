@@ -1,3 +1,57 @@
-<p>
-  food-edit works!
-</p>
+<app-header></app-header>
+<div id="wrapper">
+  <app-sidenavbar></app-sidenavbar>
+  <div id="content-wrapper">
+      <section class="barlisting-wrapper">
+        <div class="container-fluid">
+          <!-- Title Start -->
+          <div class="row">
+            <div class="col-12 heading-tag">
+              <h1 class="mb-3"><span>Bar Details :</span> Offer name goes here</h1>
+            </div>
+          </div>
+          <!-- Title End -->
+          <div class="row">
+            <div class="col-12">
+                <div class="white-container">
+                    <ul class="mt-4 bardetails-holder">
+                      <li>
+                        <div class="quarter quarter-3">
+                          <mat-form-field>
+                            <mat-label>Food Name</mat-label>
+                            <input matInput placeholder="Lamb Salad with Fregola">
+                          </mat-form-field>
+                        </div>
+                        <div class="quarter quarter-1">
+                          <mat-form-field>
+                            <mat-label>Price</mat-label>
+                            <input matInput placeholder="$120">
+                          </mat-form-field>
+                        </div>
+                      </li>
+                      <li>
+                        <mat-form-field>
+                            <mat-label>Short Description</mat-label>
+                            <textarea matInput placeholder="Lorem ipsum doler amet sit is a simply dummy text."></textarea>
+                        </mat-form-field>
+                      </li>
+                      <li class="speciality-drink-modal mt-3 mb-5">
+                        <label>Is thiis is a speciality drink on your bar?</label>
+                        <mat-slide-toggle class="ml-3"></mat-slide-toggle>
+                      </li>
+                      <li class="bardetails-button-controller">
+                          <div class="half flex-left">
+                              <button mat-raised-button color="primary">Save Changes</button>
+                          </div>
+                          <div class="half flex-right">
+                              <a routerLink="/superadmin/managebar" mat-raised-button color="accent">Back</a>
+                          </div>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  </div>
+</div>
