@@ -1,0 +1,21 @@
+.heading-tag h1{
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 2px solid #dde3e8;
+    padding-bottom: 10px;
+}
+.heading-tag h1 span {
+    font-weight: 400;
+    color: #738f9d;
+    margin-right: 5px;
+}
+.bardetails-holder{
+    max-width:500px;
+    margin: 0 auto;
+    min-height: 60vh;
+}
+.white-container{
+    padding: 15px;
+    background-color: #fff;
+    position: relative;
+}

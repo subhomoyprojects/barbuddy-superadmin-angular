@@ -6,6 +6,7 @@ import { IndexComponent } from '../superadmin/index/index.component';
 import { ManagebarComponent } from '../superadmin/managebar/managebar.component';
 import { BeerComponent } from '../superadmin/beer/beer.component';
 import { FoodEditComponent } from '../superadmin/food-edit/food-edit.component';
+import { OfferEditComponent } from '../superadmin/offer-edit/offer-edit.component';
 import { from } from 'rxjs';
 
 const routes: Routes = [
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'superadmin/index', component: IndexComponent },
   { path: 'superadmin/managebar', component: ManagebarComponent },
   { path: 'drinks/beer', component: BeerComponent },
-  { path: 'food/food-edit', component: FoodEditComponent }
+  { path: 'food/food-edit', component: FoodEditComponent },
+  { path: 'offer/offer-edit', component: OfferEditComponent }
 ];
 
 @NgModule({
