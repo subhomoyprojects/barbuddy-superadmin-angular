@@ -44,6 +44,7 @@ import { DrinksidenavComponent } from './superadmin/drinksidenav/drinksidenav.co
 import { DrinkmaincontentComponent } from './superadmin/drinkmaincontent/drinkmaincontent.component';
 import { DrinkitemComponent } from './superadmin/drinkitem/drinkitem.component';
 import { FoodEditComponent } from './superadmin/food-edit/food-edit.component';
+import { OfferEditComponent } from './superadmin/offer-edit/offer-edit.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { FoodEditComponent } from './superadmin/food-edit/food-edit.component';
     DrinksidenavComponent,
     DrinkmaincontentComponent,
     DrinkitemComponent,
-    FoodEditComponent
+    FoodEditComponent,
+    OfferEditComponent
   ],
   imports: [
     BrowserModule,
