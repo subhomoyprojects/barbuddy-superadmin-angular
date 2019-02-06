@@ -31,17 +31,25 @@
                   <div class="quarter quarter-1">Offer available on</div>
                   <div class="quarter quarter-3">
                     <mat-radio-group class="fontweight-normal">
-                      <mat-radio-button value="1">Drinks</mat-radio-button>
-                      <mat-radio-button value="2">Drink Type</mat-radio-button>
+                      <mat-radio-button value="1" (change)="0" #drinks>Drinks</mat-radio-button>
+                      <mat-radio-button value="2" (change)="0" #drinksType>Drink Type</mat-radio-button>
                     </mat-radio-group>                        
                   </div>
                 </li>
-                <li>
+                <li *ngIf="drinks.checked">
                   <mat-form-field>
-                    <mat-select placeholder="Offer on Drink type" [formControl]="toppings" multiple>
+                    <mat-select placeholder="Offer on Drinks" [formControl]="toppings" multiple>
                       <mat-option *ngFor="let topping of toppingList" [value]="topping">{{topping}}</mat-option>
                     </mat-select>
                   </mat-form-field>                      
+                </li>
+                <li *ngIf="drinksType.checked">
+                    <mat-form-field>
+                      <mat-select placeholder="Offer on Drink type" multiple>
+                        <mat-option value="1">Beer</mat-option>
+                        <mat-option value="2">Liquor</mat-option>
+                      </mat-select>
+                    </mat-form-field>
                 </li>
               </ul>
             </div>
