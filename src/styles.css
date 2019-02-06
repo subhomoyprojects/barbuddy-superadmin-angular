@@ -364,7 +364,7 @@ textarea{
   box-shadow: 5px 0px 21px rgba(157,157,157,0.29);
 }
 .mat-form-field-appearance-legacy .mat-form-field-label{
-  color:#8f2de2;
+  color:#686868;
 }
 .mat-chip-list-wrapper input.mat-input-element{
   padding: 10px 0;
@@ -517,7 +517,17 @@ label{
     flex-direction: column;
   }
 }
-
+.fontweight-normal .mat-radio-label-content{
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+.mat-pseudo-checkbox-checked::after {
+  width: 10px !important;
+  height: 6px !important;
+}
+.mat-primary .mat-pseudo-checkbox-checked, .mat-primary .mat-pseudo-checkbox-indeterminate {
+  background: #8829e2;
+}
 
 /* ===================== Admin Panel ====================== */
 html {

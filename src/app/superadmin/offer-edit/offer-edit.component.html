@@ -14,7 +14,36 @@
         <div class="row">
           <div class="col-12">
             <div class="white-container">
-              hello
+              <ul class="bardetails-holder">
+                <li>
+                  <mat-form-field>
+                      <mat-label>Offer Title</mat-label>
+                      <input matInput placeholder="Offer Title goes here">
+                  </mat-form-field>
+                </li>
+                <li>
+                  <mat-form-field>
+                      <mat-label>Short Description</mat-label>
+                      <textarea matInput placeholder="Lorem ipsum doler amet sit is a simply dummy text."></textarea>
+                  </mat-form-field>
+                </li>
+                <li>
+                  <div class="quarter quarter-1">Offer available on</div>
+                  <div class="quarter quarter-3">
+                    <mat-radio-group class="fontweight-normal">
+                      <mat-radio-button value="1">Drinks</mat-radio-button>
+                      <mat-radio-button value="2">Drink Type</mat-radio-button>
+                    </mat-radio-group>                        
+                  </div>
+                </li>
+                <li>
+                  <mat-form-field>
+                    <mat-select placeholder="Offer on Drink type" [formControl]="toppings" multiple>
+                      <mat-option *ngFor="let topping of toppingList" [value]="topping">{{topping}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>                      
+                </li>
+              </ul>
             </div>
           </div>
         </div>

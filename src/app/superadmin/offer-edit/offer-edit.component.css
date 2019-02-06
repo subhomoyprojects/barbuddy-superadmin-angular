@@ -19,3 +19,22 @@
     background-color: #fff;
     position: relative;
 }
+.quarter-3{
+    width:75%;
+}
+.quarter-1{
+    width:25%;
+}
+.quarter:first-child{
+    margin-right: 15px;
+}
+.bardetails-holder li div{
+    padding: 7px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #686868;
+}
+.bardetails-holder li {
+    width: 100%;
+    display: flex;
+}
