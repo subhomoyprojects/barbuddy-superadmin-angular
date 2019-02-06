@@ -38,3 +38,45 @@
     width: 100%;
     display: flex;
 }
+.bardetails-holder li .half{
+    width:50%;
+}
+.bardetails-holder li .half:first-child{
+    margin-right: 15px;
+}
+.bardetails-holder li label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #686868;
+}
+.clock-icon{
+    position: relative;
+}
+.clock-icon::after{
+    font-family: 'FontAwesome';
+    content: "\f017";
+    color: #8628e2;
+    font-size: 20px;
+    pointer-events: none;
+    position: absolute;
+    right: 5px;
+    font-weight: normal;
+    top: 20px;
+}
+.offer-valid-days-select label {
+    background-color: #fff;
+    color: #590ae0 !important;
+    box-shadow: 5px 0 38px rgba(157,157,157,0.28);
+    width: 14%;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 0;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+.offer-valid-days-select label.active {
+    background-color: #8f2ee1;
+    color: #fff !important;
+}

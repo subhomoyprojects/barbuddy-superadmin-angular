@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl} from '@angular/forms';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-offer-edit',
@@ -8,9 +9,16 @@ import {FormControl} from '@angular/forms';
 })
 export class OfferEditComponent implements OnInit {
 
-  constructor() { }
+  public checkboxGroupForm: FormGroup;
+
+  constructor( private formBuilder: FormBuilder) { }  
 
   ngOnInit() {
+    this.checkboxGroupForm = this.formBuilder.group({
+      left: true,
+      middle: false,
+      right: false
+    });
   }
 
   toppings = new FormControl();

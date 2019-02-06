@@ -51,6 +51,53 @@
                       </mat-select>
                     </mat-form-field>
                 </li>
+                <li>
+                  <mat-form-field>
+                    <mat-label>Flat Price</mat-label>
+                    <input matInput placeholder="Enter the Flat Prices">
+                  </mat-form-field>
+                </li>
+                <li><label>Offer Valid Date</label></li>
+                <li>
+                  <div class="half clock-icon">
+                    <mat-form-field>
+                      <mat-label>From</mat-label>
+                      <input matInput [ngxTimepicker]="picker">
+                      <ngx-material-timepicker #picker></ngx-material-timepicker>
+                    </mat-form-field>
+                  </div>
+                  <div class="half clock-icon">
+                      <mat-form-field>
+                        <mat-label>To</mat-label>
+                        <input matInput [ngxTimepicker]="picker1">
+                        <ngx-material-timepicker #picker1></ngx-material-timepicker>
+                      </mat-form-field>
+                  </div>
+                </li>
+                <li><label>Offer Valid Days</label></li>
+                <li class="mt-4 btn-group btn-group-toggle offer-valid-days-select">
+                  <label ngbButtonLabel >
+                    <input type="checkbox" ngbButton > Sun
+                  </label>
+                  <label ngbButtonLabel>
+                    <input type="checkbox" ngbButton > Mon
+                  </label>
+                  <label ngbButtonLabel>
+                    <input type="checkbox" ngbButton > Tue
+                  </label>
+                  <label ngbButtonLabel >
+                    <input type="checkbox" ngbButton > Wed
+                  </label>
+                  <label ngbButtonLabel>
+                    <input type="checkbox" ngbButton > Thu
+                  </label>
+                  <label ngbButtonLabel>
+                    <input type="checkbox" ngbButton > Fri
+                  </label>
+                  <label ngbButtonLabel>
+                    <input type="checkbox" ngbButton > Sat
+                  </label>
+                </li>
               </ul>
             </div>
           </div>

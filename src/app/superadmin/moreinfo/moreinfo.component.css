@@ -73,6 +73,20 @@
     background-size: 100%;
     display: inline-block;
 }
+.clock-icon{
+    position: relative;
+}
+.clock-icon::after{
+    font-family: 'FontAwesome';
+    content: "\f017";
+    color: #8628e2;
+    font-size: 20px;
+    pointer-events: none;
+    position: absolute;
+    right: 5px;
+    font-weight: normal;
+    top: 12px;
+}
 
 
 /*------------*/
