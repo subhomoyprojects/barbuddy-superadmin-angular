@@ -35,6 +35,8 @@ import { MoreinfoComponent } from './superadmin/moreinfo/moreinfo.component';
 import { DrinksComponent } from './superadmin/drinks/drinks.component';
 import { FoodComponent } from './superadmin/food/food.component';
 import { OffersComponent } from './superadmin/offers/offers.component';
+import {MatDatepickerModule} from '@angular/material/datepicker'; 
+import {MatNativeDateModule} from '@angular/material';
 
 import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
 import { CarouselModule } from 'ngx-owl-carousel-o';
@@ -91,6 +93,8 @@ import { OfferEditComponent } from './superadmin/offer-edit/offer-edit.component
     MatDialogModule, // For Modal
     MatChipsModule, // For Mat Chip
     MatAutocompleteModule, // For Auto Complete
+    MatDatepickerModule, // For Date Picker
+    MatNativeDateModule  // For Date Picker
   ],
   exports: [
     ModalComponent

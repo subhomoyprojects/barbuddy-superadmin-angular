@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl} from '@angular/forms';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import {MatDatepickerModule} from '@angular/material/datepicker'; 
 
 @Component({
   selector: 'app-offer-edit',
   templateUrl: './offer-edit.component.html',
-  styleUrls: ['./offer-edit.component.css']
+  styleUrls: ['./offer-edit.component.css'],
+  providers:[MatDatepickerModule]
 })
 export class OfferEditComponent implements OnInit {
 

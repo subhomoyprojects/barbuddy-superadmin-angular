@@ -528,6 +528,19 @@ label{
 .mat-primary .mat-pseudo-checkbox-checked, .mat-primary .mat-pseudo-checkbox-indeterminate {
   background: #8829e2;
 }
+.mat-datepicker-toggle .mat-icon-button{
+  padding: 5px !important;
+  width: auto !important;
+  min-width: auto !important;
+  font-size: 18px !important;
+  color: #862ee4;
+}
+.mat-calendar-controls .mat-calendar-period-button,
+.mat-calendar-controls .mat-calendar-previous-button,
+.mat-calendar-controls .mat-calendar-next-button{
+  padding: 0 15px !important;
+  min-width: auto !important;
+}
 
 /* ===================== Admin Panel ====================== */
 html {

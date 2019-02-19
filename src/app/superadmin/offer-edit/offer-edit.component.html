@@ -101,10 +101,22 @@
                 <li class="mt-4"><label>Offer Valid Date</label></li>
                 <li>
                   <div class="half">
-                    
+                    <mat-form-field class="example-full-width">
+                      <input matInput [matDatepicker]="datepicker_from" placeholder="Choose a date">
+                      <mat-datepicker-toggle matSuffix [for]="datepicker_from">
+                        <i class="fa fa-calendar" matDatepickerToggleIcon aria-hidden="true"></i>
+                      </mat-datepicker-toggle>
+                      <mat-datepicker #datepicker_from></mat-datepicker>
+                    </mat-form-field>                                  
                   </div>
                   <div class="half">
-                     
+                    <mat-form-field class="example-full-width">
+                      <input matInput [matDatepicker]="datepicker_to" placeholder="Choose a date">
+                      <mat-datepicker-toggle matSuffix [for]="datepicker_to">
+                        <i class="fa fa-calendar" matDatepickerToggleIcon aria-hidden="true"></i>
+                      </mat-datepicker-toggle>
+                      <mat-datepicker #datepicker_to></mat-datepicker>
+                    </mat-form-field> 
                   </div>
                 </li>
               </ul>
