@@ -4,3 +4,135 @@
     border-bottom: 2px solid #dde3e8;
     padding-bottom: 10px;
 }
+.setting-tiles {
+    width: 320px;
+    height: 154px;
+    font-size: 18px;
+    background: #fff;
+    position: relative;
+    color: #738f9d;
+    margin: 0 auto;
+    transition: all ease-in-out 0.3s;
+    display: block;
+}
+.setting-tiles span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: left;
+    padding: 0 69px;
+}
+.analytics-holder span {
+    margin-top: -25px;
+    text-align: center;
+}
+.setting-tiles span {
+    padding: 0 40px;
+}
+.setting-tiles.active span, .setting-tiles:hover span {
+    color: #fff;
+}
+.setting-tiles strong {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    text-align: center;
+    padding: 7px 15px;
+    margin-top: 20px;
+    border: 2px solid #e7ebef;
+    border-radius: 4px;
+}
+.setting-tiles.active strong, .setting-tiles:hover strong {
+    color: #fff;
+}
+.supad-icon {
+    width: 73px;
+    height: 73px;
+    background: #333;
+    position: absolute;
+    transform: translateY(50%);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    left: -37px;
+}
+.mng-supad-ic {
+    background: #8d2ce2 url(/assets/images/sprite1.png) no-repeat;
+    background: url(/assets/images/sprite1.png) no-repeat, linear-gradient(to right, #8d2ce2 0%,#5407e0 100%);
+    transition: all ease-in-out 0.3s;
+}
+.setting-tiles.active .mng-supad-ic,
+.setting-tiles:hover .mng-supad-ic{
+  background: #fff url(/assets/images/sprite1.png) no-repeat;
+}
+.setting-tiles.active,
+.setting-tiles:hover{
+  background: #8d2ce2;
+  background: -moz-linear-gradient(left, #8d2ce2 0%, #5407e0 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #8d2ce2 0%,#5407e0 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #8d2ce2 0%,#5407e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
+}
+.setting-tiles.active span,
+.setting-tiles:hover span{
+  color:#fff;
+}
+.manage-super-admin-icon1{
+    background-position: 0 -118px;
+}
+.manage-super-admin-icon2{
+    background-position: 0 -191px;
+}
+.manage-super-admin-icon3{
+    background-position: 0 -262px;
+}
+.manage-super-admin-icon4{
+    background-position: 0 -336px;
+}
+.manage-super-admin-icon5 {
+    background-position: 0 -415px;
+}
+.manage-super-admin-icon6{
+    background-position: 0 -486px;
+}
+.setting-tiles.active .manage-super-admin-icon1,
+.setting-tiles:hover .manage-super-admin-icon1{
+  background-position: -72px -118px;
+}
+.setting-tiles.active .manage-super-admin-icon2,
+.setting-tiles:hover .manage-super-admin-icon2{
+  background-position: -72px -191px;
+}
+.setting-tiles.active .manage-super-admin-icon3,
+.setting-tiles:hover .manage-super-admin-icon3{
+  background-position: -72px -262px;
+}
+.setting-tiles.active .manage-super-admin-icon4,
+.setting-tiles:hover .manage-super-admin-icon4{
+  background-position: -72px -336px;
+}
+.setting-tiles.active .manage-super-admin-icon5,
+.setting-tiles:hover .manage-super-admin-icon5{
+  background-position: -72px -415px;
+}
+.setting-tiles.active .manage-super-admin-icon6,
+.setting-tiles:hover .manage-super-admin-icon6{
+  background-position: -72px -486px;
+}
+
+@media (min-width:320px) and (max-width:767px)
+{
+    .setting-tiles{
+        width: auto;
+        margin-left: 40px;
+        font-size: 14px;
+    }
+      .setting-tiles span {
+        padding: 0 40px;
+    }
+    .setting-tiles strong {
+        width: auto;
+    }
+}
