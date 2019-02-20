@@ -10,9 +10,9 @@ import { OfferEditComponent } from '../superadmin/offer-edit/offer-edit.componen
 import { from } from 'rxjs';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/superadmin/barlisting', pathMatch: 'full' },
-  { path: 'superadmin/barlisting', component: BarlistingComponent },
+  { path: '', redirectTo: '/superadmin/index', pathMatch: 'full' },
   { path: 'superadmin/index', component: IndexComponent },
+  { path: 'superadmin/barlisting', component: BarlistingComponent },
   { path: 'superadmin/managebar', component: ManagebarComponent },
   { path: 'drinks/beer', component: BeerComponent },
   { path: 'food/food-edit', component: FoodEditComponent },
